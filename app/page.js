@@ -59,7 +59,7 @@ export default function Home() {
       await fetchTodos();
     } catch (err) {
       toast.error("Error");
-    }
+    }  
   };
   return (
     <>
